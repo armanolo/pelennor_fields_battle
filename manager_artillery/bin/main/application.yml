@@ -1,0 +1,17 @@
+custom:
+  cannonServers:
+    1: http://localhost:3001
+    2: http://localhost:3002
+    3: http://localhost:3003
+
+server:
+  port : 3000
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /swagger-mowers.html # redirect to swagger-ui.html
+    use-root-path: true
+  cache:
+    disabled: true
